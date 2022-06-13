@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# Basic web3 waitlist dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+<img src="./my-app/public/home.png"><br>
 
-Try running some of the following tasks:
+Use your web3 provider to access a simple waitlist.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Functions
+
+1. Add self to the waitlist.
+2. Remove self from the waitlist.
+
+## Resources
+
+Deployed to the public rinkeby network at [0xA6B775D6812b8d82979bba069E0c6Aedd038909b](https://rinkeby.etherscan.io/address/0xa6b775d6812b8d82979bba069e0c6aedd038909b)
+Adapted from the NFT whitelist dapp from [learnweb3.io](https://learnweb3.io)
